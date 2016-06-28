@@ -1,0 +1,1 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%><%response.setContentType("text/html;charset=utf-8");if(session.getAttribute("isMobileWeb")==null){response.getWriter().write("no");}else{response.getWriter().write(session.getAttribute("isMobileWeb").toString());}%>
