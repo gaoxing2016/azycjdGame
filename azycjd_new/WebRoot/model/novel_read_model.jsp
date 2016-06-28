@@ -225,6 +225,9 @@ session.setAttribute("contextPath", path);
 	    				<li style="background-color: #bfe1c6;" id="bfe1c6">青色</li>
 	    			</ul>
 	    		</div>
+	    		<div id="fontBold_chapter">
+	    			加粗
+	    		</div>
 	    	</div>
 	    </div>
 	    <div class="read_content">
@@ -278,5 +281,10 @@ session.setAttribute("contextPath", path);
    			滇ICP备12006807号-1 &nbsp;&nbsp;滇网文许字【2014】1100-002号
    		</p>
     </div>
+    <script>
+      $("#fontBold_chapter").click(function(){
+      	$("#novel_content").toggleClass("fontBold");
+      });
+    </script>
   </body>
 </html>

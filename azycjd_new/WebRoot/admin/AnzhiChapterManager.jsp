@@ -51,7 +51,7 @@
 								</c:if>
 						  	</td>
 						  	<td>${k.chapterCharNum }</td>
-							<td>${k.lastUpdateTime }</td>
+							<td>${k.addTime}</td>
 							<td>
 								<div id="actiondiv${k.id }">
 									<c:if test="${k.state eq 1 && k.readType eq 0}">
